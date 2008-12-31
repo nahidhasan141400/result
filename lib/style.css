@@ -1,0 +1,236 @@
+body {
+  margin: 5px 0px 5px 5px;
+  background-color: #eeeeee;
+  width: 100%;
+  overflow-x: auto;
+}
+.footer_text {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #666666;
+  line-height: 15px;
+}
+.bar_bk {
+  background-image: url(../images/bar_bk.jpg);
+  background-repeat: repeat-x;
+}
+#site_title {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #ffffee;
+  margin: 3px 0px 0px 5px;
+  font-size: 17px;
+}
+#site_title_des {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #95e17d;
+  margin: 0px;
+  margin-left: 6px;
+  display: block;
+  margin: 0px 0px 5px 5px;
+}
+.left_round {
+  background-image: url(../images/left_round.gif);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.black11 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+}
+.red11 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #f00;
+  text-decoration: none;
+  font-weight: normal;
+}
+.red12bold {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #f00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.black12bold {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.black12 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.black14bold {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  clip: rect(auto, auto, auto, auto);
+}
+.black14 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+  clip: rect(auto, auto, auto, auto);
+}
+
+.black16bold {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #00f;
+  text-decoration: none;
+  font-weight: bold;
+}
+.links02 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.links:hover {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #f00;
+  text-decoration: none;
+  font-weight: bold;
+}
+.links02:hover {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #0c9;
+  text-decoration: none;
+  font-weight: normal;
+}
+.vfield {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #000;
+  text-decoration: none;
+  background-color: #f4f0f2;
+  border: 1px solid #999;
+  font-weight: bold;
+  width: 200px;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+}
+
+.textfield01 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #acd0a1;
+  text-decoration: none;
+  background-color: #e4ede4;
+  border: 1px solid #c3c5c5;
+  font-weight: bold;
+  width: 180px;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+}
+
+.textfield05 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  text-decoration: none;
+  background-color: #f4f0f2;
+  border: 1px solid #999;
+  font-weight: normal;
+  width: 205px;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+}
+.textfield06 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  text-decoration: none;
+  background-color: #f4f0f2;
+  border: 1px solid #999;
+  font-weight: normal;
+  width: 200px;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+}
+.show {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(153, 153, 153, 0.181);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(5px);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.show #box {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(201, 201, 201, 0.352);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px black, -2px -2px 4px white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.show #box h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: aqua;
+  text-shadow: 0 0 3px black;
+}
+.show #box h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: rgb(0, 255, 8);
+  text-shadow: 0 0 3px black;
+}
+
+.show #box h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  letter-spacing: 1px;
+  color: rgb(255, 0, 0);
+  text-shadow: 0 0 3px black;
+}
